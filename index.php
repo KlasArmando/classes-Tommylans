@@ -41,4 +41,4 @@ class Product {
 }
 
 $product = new Product(10, 'Lamp');
-echo $product->getNaam() . " " . $product->getPrijs();
+echo $product->getNaam() . ', ' . $product->getPrijs() . ' euro';
